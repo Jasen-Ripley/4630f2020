@@ -1,0 +1,1 @@
+I used a lucid chart web drawn interface to create a pretty broad view of what I want my app to do. I plan on making each step more intricate but for now I want my app to generally work like what I showed.
