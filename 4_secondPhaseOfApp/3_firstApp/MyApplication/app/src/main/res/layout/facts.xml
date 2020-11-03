@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+
+    <Button
+        android:id="@+id/return1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#FFC107"
+        android:onClick="return1"
+        android:text="@string/go_back"
+        android:textColor="@android:color/holo_purple" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Facts about me"
+        android:textColor="#FFC107"/>
+
+    <ImageView
+        android:id="@+id/birthimage"
+        android:layout_width="147dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/birthtext"
+        android:src="@drawable/worcester" />
+
+    <TextView
+        android:id="@+id/birthtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName2"
+        android:text="@string/birthplace"
+        android:textColor="#FFC107" />
+
+    <ImageView
+        android:id="@+id/houseimage"
+
+        android:layout_width="194dp"
+        android:layout_height="86dp"
+        android:layout_below="@+id/housetext"
+        android:src="@drawable/house" />
+
+    <TextView
+        android:id="@+id/housetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/live"
+        android:layout_below="@+id/birthimage"
+        android:textColor="#FFC107" />
+
+    <ImageView
+        android:id="@+id/vermontimage"
+        android:layout_width="197dp"
+        android:layout_height="134dp"
+        android:layout_below="@+id/vermonttext"
+        android:src="@drawable/vermont" />
+
+    <TextView
+        android:id="@+id/vermonttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wanttolive"
+        android:layout_below="@+id/houseimage"
+        android:textColor="#FFC107" />
+    <ImageView
+        android:id="@+id/friendimage"
+        android:layout_width="197dp"
+        android:layout_height="134dp"
+        android:layout_below="@+id/friendtext"
+        android:src="@drawable/wisconsin" />
+
+    <TextView
+        android:id="@+id/friendtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friend"
+        android:layout_below="@+id/vermontimage"
+        android:textColor="#FFC107" />
+
+</RelativeLayout>

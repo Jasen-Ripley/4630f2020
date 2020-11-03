@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/selfie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="100dp"
+        android:background="#FFC107"
+        android:onClick="selfie"
+        android:text="@string/click_button"
+        android:textColor="@android:color/holo_purple" />
+
+    <Button
+        android:id="@+id/weatheroptions"
+        android:onClick="weatheroptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#FFC107"
+        android:text="@string/weather"
+        android:textColor="@android:color/holo_purple" />
+
+    <Button
+        android:id="@+id/facts"
+        android:onClick="facts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="#FFC107"
+        android:text="@string/facts"
+        android:textColor="@android:color/holo_purple" />
+    <Button
+        android:id="@+id/investment"
+        android:onClick="investment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="#FFC107"
+        android:text="@string/investment"
+        android:textColor="@android:color/holo_purple" />
+    <Button
+        android:id="@+id/resume"
+        android:onClick="resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="#FFC107"
+        android:text="@string/resume"
+        android:textColor="@android:color/holo_purple" />
+    <Button
+        android:id="@+id/randomfacts"
+        android:onClick="randomfacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:background="#FFC107"
+        android:text="@string/randomfacts"
+        android:textColor="@android:color/holo_purple" />
+
+</RelativeLayout>

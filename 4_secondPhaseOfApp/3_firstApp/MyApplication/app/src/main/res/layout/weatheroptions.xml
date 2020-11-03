@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+    <Button
+        android:id="@+id/return1"
+        android:onClick="return1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/go_back"
+        android:textColor="@android:color/holo_purple"
+        android:background="#FFC107"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/weather"
+        android:onClick="weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#FFC107"
+        android:text="@string/cityweather"
+        android:textColor="@android:color/holo_purple" />
+
+    <Button
+        android:id="@+id/weatherhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#FFC107"
+        android:onClick="weatherhome"
+        android:text="@string/weatherhome"
+        android:textColor="@android:color/holo_purple" />
+    <Button
+        android:id="@+id/weatherorlando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weatherhome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#FFC107"
+        android:onClick="weatherorlando"
+        android:text="@string/weatherorlando"
+        android:textColor="@android:color/holo_purple" />
+
+</RelativeLayout>

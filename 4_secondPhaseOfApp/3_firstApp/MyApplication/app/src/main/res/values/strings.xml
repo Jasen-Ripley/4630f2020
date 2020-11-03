@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">firstApp</string>
+    <string name="my_name">Hello, My name is Jasen Ripley!</string>
+    <string name="click_button">My name and a photo</string>
+    <string name="go_back">Return</string>
+    <string name="cityweather">Find weather details for a City</string>
+    <string name="facts">Facts about me</string>
+    <string name="randomfacts">Some random facts about me</string>
+    <string name="investment">Investment Portfolio</string>
+    <string name="resume">My Resume</string>
+    <string name="hockey">I played hockey from when I was about 8 years old to when I graduated from high school, and I still try to occasionally play.</string>
+    <string name="graduate">This is my last semester and I am on track to graduate in December.</string>
+    <string name="family">My family consists of my mom, my dad, my brother and me.</string>
+    <string name="draper">I worked at Draper Laboratories in Cambridge a couple of semesters ago for a co-op.</string>
+    <string name="highschool">I went to a boarding private high school, although I commuted there for all 4 years.</string>
+    <string name="birthplace">I was born in Worcester, Massachusetts.</string>
+    <string name="live">I live in Marlborough, Massachusetts.</string>
+    <string name="wanttolive">I have always loved going to Vermont, the scenery is so beautiful and it is just so relaxed up there.</string>
+    <string name="friend">One of my good friends is from Wisconsin.</string>
+    <string name="weatherhome">Weather in my hometown Marlborough</string>
+    <string name="weather">Weather</string>
+    <string name="howto">To search a city erase "Enter City" and put in the city you would like to search, then press the picture of the search button. </string>
+    <string name="weatherorlando">Weather where I would like to be</string>
+
+
+
+</resources>

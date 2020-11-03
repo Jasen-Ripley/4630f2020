@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+    <Button
+        android:id="@+id/return1"
+        android:onClick="return1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/go_back"
+        android:textColor="@android:color/holo_purple"
+        android:background="#FFC107"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Weather"
+        android:textColor="#FFC107"/>
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="87dp"
+        android:layout_toEndOf="@+id/searchbar"
+        android:layout_toRightOf="@+id/searchbar"
+        android:src="@drawable/search" />
+
+    <EditText
+        android:id="@+id/searchbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/howto"
+        android:text="Enter City"
+        android:textColor="#FFC107"/>
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchbar"
+        android:text="The Temperature"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFC107" />
+
+    <TextView
+        android:id="@+id/feelslike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temp"
+        android:text="Feels like"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFC107" />
+
+    <TextView
+        android:id="@+id/howto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName2"
+        android:text="@string/howto"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFC107" />
+
+</RelativeLayout>
