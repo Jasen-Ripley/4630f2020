@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="018b7dbb-3772-48c3-8829-f4cd3d4e3dd1" name="Default Changelist" comment="" />
+    <list default="true" id="95976c20-812b-407b-b97d-4f86173cf18e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1jlC7hl2xbF3AwgkaVBFMIyD5gQ" />
+  <component name="ProjectId" id="1jnxTYJ6ypeFkc05sq8bfbA8tGu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,25 +23,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyApplication" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3_firstApp" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="018b7dbb-3772-48c3-8829-f4cd3d4e3dd1" name="Default Changelist" comment="" />
-      <created>1604369125031</created>
+      <changelist id="95976c20-812b-407b-b97d-4f86173cf18e" name="Default Changelist" comment="" />
+      <created>1604453666850</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604369125031</updated>
+      <updated>1604453666850</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="801" y="287" key="FileChooserDialogImpl" timestamp="1604453771144">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2581" y="281" key="FileChooserDialogImpl" timestamp="1604453749549">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="801" y="287" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604453771144" />
+    <state x="2581" y="281" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604453749549" />
   </component>
 </project>
